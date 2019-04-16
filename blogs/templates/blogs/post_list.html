@@ -1,0 +1,19 @@
+{% extends 'blogs/base.html' %}
+{% block content %}
+{% for post in post_list %}
+
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-header bg-dark text-white">{{ post.title }}</h2>
+            <div class="card-body">
+                <p>{{ post.pub_date }}, {{ post.category }}</p>
+                <p>{{ post.summary }}</p>
+            </div>
+            <a href="{% url 'blogs:detail' post.pk %}" class="btn btn-primary">Read More</a>
+    </div>
+</div>
+{% endfor %}
+<p>
+    {% include 'blogs/paging.html' %}
+</p>
+{% endblock %}
