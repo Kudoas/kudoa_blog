@@ -16,9 +16,13 @@ https://sample-mysite.herokuapp.com/blogs/
 
 現在、その他機能は開発中です。
 
+## 使用した
+- フレームワーク: Django(Python)
+- 開発用サーバー: MySQL
+- 運用用サーバー: PostgreSQL
+- デプロイ、インフラ: Heroku
+
 ## 使用した言語とライブラリ
 - requirements.txtを参照してください。
 
-## DB
-- 開発用サーバー: MySQL
-- 運用用サーバー: PostgreSQL
+
