@@ -4,13 +4,6 @@ https://sample-mysite.herokuapp.com/blogs/
 
 ※ Herokuの仕様でアクセスに20秒程度かかります。ご了承ください。
 
-## 使用した言語とライブラリ
-- requirements.txtを参照してください。
-
-## DB
-- 開発用サーバー: MySQL
-- 運用用サーバー: PostgreSQL
-
 ## 機能
 - カテゴリーと記事のリレーション
 - ページネーション
@@ -22,3 +15,10 @@ https://sample-mysite.herokuapp.com/blogs/
 - カテゴリーの追加と記事とのリレーション
 
 現在、その他機能は開発中です。
+
+## 使用した言語とライブラリ
+- requirements.txtを参照してください。
+
+## DB
+- 開発用サーバー: MySQL
+- 運用用サーバー: PostgreSQL
