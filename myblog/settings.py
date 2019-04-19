@@ -84,10 +84,6 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'BLOG',  # DB名を設定
-        'USER': 'kudoa',  # DBへ接続するユーザIDを設定
-        'PASSWORD': 'kid98840624',  # DBへ接続するユーザIDのパスワードを設定
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
