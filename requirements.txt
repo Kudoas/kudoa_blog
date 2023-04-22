@@ -16,7 +16,7 @@ mysqlclient==1.4.2.post1
 numpy==1.16.2
 packaging==19.0
 pip-review==1.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 protobuf==3.18.3
 psycopg2==2.8.2
 pycodestyle==2.5.0
