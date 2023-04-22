@@ -1,8 +1,6 @@
-# Kudoa_blog
-シンプルなブログアプリです。以下のURLからアクセスできます。
-https://sample-mysite.herokuapp.com/blogs/
+# my-first-blog
 
-※ Herokuの仕様でアクセスに20秒程度かかります。ご了承ください。
+シンプルなブログアプリです。
 
 ## 機能
 - カテゴリーと記事のリレーション
